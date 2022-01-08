@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "55d96f62-bb95-4325-a5d8-0bdf1ec876c2",
+		"name": "findhawker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Hawkers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findhawker/hawkers?latitude=1.322&longitude=103.855",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findhawker",
+						"hawkers"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "1.322"
+						},
+						{
+							"key": "longitude",
+							"value": "103.855"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
